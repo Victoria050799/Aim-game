@@ -60,7 +60,6 @@ function setTime(value) {
 };
 
 function createRandomCircle() {
-    // const circle = document.createElement('div');
     const size = getRandomNumber(10, 60);
     const { width, height } = board.getBoundingClientRect();
     const x = getRandomNumber(0, width - size);
